@@ -1,0 +1,29 @@
+package see;
+import cie.student;
+import java.util.*;
+
+
+
+class external extends student{
+int a[]=new int [5];
+int marks;
+void data(){
+Scannersc=new Scanner(System.in);
+
+System.out.println("the marks of 5 subjects in see");
+
+for(int i=0;i<n;i++)
+
+{
+System.out.println("enter  your marks ");
+marks=sc.nextInt();
+}
+}
+
+void print()
+{
+super.print();
+System.out.println("your  internal marks are in this sem");
+}
+}
+
